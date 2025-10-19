@@ -69,7 +69,9 @@ docker compose up -d
 This project is a fork and re-structuring of @schickling's [postgres-backup-s3](https://github.com/schickling/dockerfiles/tree/master/postgres-backup-s3) and [postgres-restore-s3](https://github.com/schickling/dockerfiles/tree/master/postgres-restore-s3).
 
 ## Fork goals
-These changes would have been difficult or impossible merge into @schickling's repo or similarly-structured forks.
+This fork maintains up-to-date PostgreSQL version support (currently supporting versions 12-17) and is designed to work seamlessly with the sister project [save-the-elephant](https://github.com/rarup1/save-the-elephant) for comprehensive backup solutions. This provides an image that will be used for starting a backup cronjob or service.
+
+Original fork goals from @eeshugerman's version:
   - dedicated repository
   - automated builds
   - support multiple PostgreSQL versions
